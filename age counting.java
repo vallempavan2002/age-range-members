@@ -13,12 +13,7 @@ public class PassengerAgeRange {
         ageRangeCounts.put("50+", 0);
 
         // Passenger information
-        String[][] passengers = {
-            {"Jhon", "31"},
-            {"James", "22"},
-            {"Mary", "19"},
-            {"Srikanth", "37"}
-        };
+        String[][] passengers = {{"Jhon", "31"},{"James", "22"}, {"Mary", "19"},{"Pavan", "37"}};
 
         // Loop through each passenger and update the age range counts
         for (String[] passenger : passengers) {
